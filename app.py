@@ -28,7 +28,7 @@ def obtener_precios(ticker, fecha_inicial, fecha_final, usar_ejemplo):
     return descargar_precios(ticker, fecha_inicial, fecha_final)
 
 
-st.title("Simulación histórica de una inversión")
+st.title("📈 Simulador histórico de inversiones")
 
 # En Streamlit, en vez de usar input(), usamos widgets para pedir los datos.
 inversion_inicial = st.number_input("Inversión inicial", min_value=0.0, value=1000.0)
